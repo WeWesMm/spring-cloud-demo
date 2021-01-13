@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: configserver
+#spring.cloud.config.server.git.uri=https://github.com/carnellj/config-repo.git
+#spring.cloud.config.server.git.search-paths=licensingservice,organizationservice
+#spring.cloud.config.server.git.username=native-cloud-apps
+#spring.cloud.config.server.git.password=0ffended
