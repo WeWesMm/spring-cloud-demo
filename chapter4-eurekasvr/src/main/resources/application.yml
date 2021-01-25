@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    # 不使用 Eureka 服务进行注册，因为该工程本身就是 Eureka 服务。
+    register-with-eureka: false
+    # 不在本地缓存注册表信息，因为该工程本身就是 Eureka 服务。
+    fetch-registry: false
+  server:
+    # 在服务器请求之前等待的初始时间，在本地进行测试时有助于加快 Eureka 服务启动和显示通过它注册服务所需的时间
+    wait-time-in-ms-when-sync-empty: 5
